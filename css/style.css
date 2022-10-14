@@ -4,7 +4,13 @@
     font-family: Arial, Helvetica, sans-serif ;
 }
 
+.nav_a {
+    color: white;
+}
 
+.nav_a:hover {
+    color: rgb(202, 9, 9);
+}
 
 .body_index {
     display: flex;
@@ -359,18 +365,7 @@ nav a:hover {
     opacity: 0.4;
 }
 
-@media screen and (max-width: 700px) {
-
-    header{
-        justify-content: space-around !important;
-    }
-
-    .ul_nav{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-items: center;
-    }
+@media screen and (max-width: 990px) {
 
     .footer a {
         padding-left: 10px !important;
@@ -401,6 +396,14 @@ nav a:hover {
 
     .historia img {
         width: 400px;
+    }
+
+    li{
+        padding-left: 0px;
+    }
+
+    .nav_a {
+        padding-bottom: 0px;
     }
 }
 
