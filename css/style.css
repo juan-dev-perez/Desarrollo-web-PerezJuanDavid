@@ -88,15 +88,26 @@ nav a:hover {
     height: 500px;
     border-radius: 5px;
     margin-bottom: 7px;
+    transition: 0.5s;
+}
+
+.div_index img:hover {
+    transform: scale(1.05);
 }
 
 .div_index {
     margin-top: 60px;
 }
 
-.div_index a {
+.div_index a{
+    text-decoration: none;
+}
+
+.div_index p {
+    margin-top: 15px;
     font-weight: bold;
-    word-spacing: 0.20em;
+    word-spacing: 0.10em;
+    letter-spacing: 0.8px;
     color: white;
     font-size: 19px;
 }
@@ -205,7 +216,13 @@ nav a:hover {
 
 .div_galeria img{
     height: 300px;
-    border-radius: 10px;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+.div_galeria img:hover{
+    border-radius: 5px;
+    transform: scale(1.15);
 }
 
 .div_galeria {
@@ -242,6 +259,10 @@ nav a:hover {
 .wit_section_2 div{
     width: 500px;
     padding-bottom: 50px;
+}
+
+.wit_section_2 img:hover{
+    box-shadow: 5px 5px 80px 89px;
 }
 
 .padding_top_20px {
