@@ -261,8 +261,15 @@ nav a:hover {
     padding-bottom: 50px;
 }
 
+.wit_section_2 img{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
 .wit_section_2 img:hover{
-    box-shadow: 5px 5px 80px 89px;
+    transform: scale(1.05);
+    box-shadow: 15px 15px 15px #202020;
 }
 
 .padding_top_20px {
@@ -425,6 +432,10 @@ nav a:hover {
 
     .nav_a {
         padding-bottom: 0px;
+    }
+
+    .wit_section_2 div{
+        width: 400px;
     }
 }
 
