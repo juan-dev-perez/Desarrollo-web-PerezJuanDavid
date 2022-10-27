@@ -149,7 +149,7 @@ nav a:hover {
   letter-spacing: .2rem;
   text-transform: uppercase;
   font-weight: 800;
-  font-size: .88rem; }
+  font-size: 0.88rem; }
 
 .god_titulo {
   font-size: 40px;
@@ -339,4 +339,43 @@ nav a:hover {
   .nav_a {
     padding-bottom: 0px; }
   .wit_section_2 div {
-    width: 400px; } }
+    width: 400px; }
+  .wit_section_2 p {
+    font-size: 16px;
+    line-height: 28px; }
+  .wit_section_2 h2 {
+    font-size: 21px; }
+  .god_principal {
+    padding: 40px 30px;
+    text-align: center; }
+  .god_titulo {
+    font-size: 34px; }
+  .god_desc, .wit_desc {
+    font-size: 11px; }
+  .god_p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px; }
+  .main_index {
+    padding-left: 20px;
+    padding-right: 20px; }
+    .main_index h1 {
+      font-size: 25px; }
+    .main_index h3 {
+      padding-top: 13px;
+      font-size: 17px; }
+  .wit_section_1 {
+    padding-left: 20px;
+    padding-right: 20px; }
+  .h2_galeria h2 {
+    font-size: 28px; }
+  .div_sec_stray {
+    padding-left: 17px;
+    padding-right: 17px; }
+  .stray_2_titulo {
+    font-size: 25px; }
+  .section_stray_2 {
+    padding: 50px 0px; }
+    .section_stray_2 p {
+      font-size: 17px;
+      padding: 5px 0px; } }
